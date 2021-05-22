@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>tictactoe | game</title>
+  <!--    bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--    css-->
+  <link rel="stylesheet" href="styles.css">
+  <!--    font awesome-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!--  font-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/390/PNG/512/tic-tac-toe_39453.png">
+
+</head>
+
+<body onLoad="alert('Choose cross or circle first then fill your name !')">
+  <section  id="loader" class="container">
+    <h3 class="forable">Enter Player 1 name : <input class="player1name" type="text" placeholder="Player1"> <button onclick="functionplayer1chosecross()" class="btn btn1 btn-outline-success " type="button"><i class="far fa-times fa-3x"></i></button>
+      <button onclick="functionplayer1chosecircle()" class="btn btn1 btn-outline-info" type="button"><i class="far fa-circle fa-3x"></i></button>
+    </h3>
+    <h3 class="fordisable">Enter Player 2 name : <input class="player2name" type="text" placeholder="Player2"> <button class="btn btn1 btn-outline-success" type="button" disabled><i class="far fa-times fa-3x"></i></button>
+      <button class="btn btn1 btn-outline-info" type="button" disabled><i class="far fa-circle fa-3x"></i></button>
+    </h3>
+    <button onClick="startgame()" type="button" class="btn btn-outline-secondary startgameclass" disabled>Click the button when ready to play</button>
+  </section>
+
+  <section id='game' class="container">
+    <!--    main game section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class='player1'>Player 1 : </h3>
+
+        </div>
+        <div class="col-md-6">
+          <h3 class="player2">Player 2 : </h3>
+        </div>
+      </div>
+      <h2 id="playerchanceindicator">Tic-Tac-Toe</h2>
+    </div>
+    <table class=".grid">
+      <tr>
+        <td class="element" style="border-top: 0; border-left:0;">
+          <button onclick="function1(),mainfunction(),win()" class="btn btn-outline-dark buttonmain1 gridbtn" type="button" name="button1"></button>
+        </td>
+        <td class="element" style="border-top: 0;">
+          <button onclick="function2(),mainfunction(),win()" class="btn btn-outline-dark buttonmain2 gridbtn" type="button" name="button2"></button>
+        </td>
+        <td class="element" style="border-top: 0; border-right:0;">
+          <button onclick="function3(),mainfunction(),win()" class="btn btn-outline-dark buttonmain3 gridbtn" type="button" name="button3"></button>
+        </td>
+      </tr>
+      <tr>
+        <td class="element" style="border-left:0;">
+          <button onclick="function4(),mainfunction(),win()" class="btn btn-outline-dark buttonmain4 gridbtn" type="button" name="button4"></button>
+        </td>
+        <td class="element">
+          <button onclick="function5(),mainfunction(),win()" class="btn btn-outline-dark buttonmain5 gridbtn" type="button" name="button5"></button>
+        </td>
+        <td class="element" style="border-right:0;">
+          <button onclick="function6(),mainfunction(),win()" class="btn btn-outline-dark buttonmain6 gridbtn" type="button" name="button6"></button>
+        </td>
+      </tr>
+      <tr>
+        <td class="element" style="border-bottom: 0; border-left:0;">
+          <button onclick="function7(),mainfunction(),win()" class="btn btn-outline-dark buttonmain7 gridbtn" type="button" name="button7"></button>
+        </td>
+        <td class="element" style="border-bottom: 0;">
+          <button onclick="function8(),mainfunction(),win()" class="btn btn-outline-dark buttonmain8 gridbtn" type="button" name="button8"></button>
+        </td>
+        <td class="element" style="border-bottom: 0; border-right:0;">
+          <button onclick="function9(),mainfunction(),win()" class="btn btn-outline-dark buttonmain9 gridbtn" type="button" name="button9"></button>
+        </td>
+      </tr>
+    </table>
+    <button onclick="history.go(0)" class="btn btn-outline-primary" style="position:absolute ;left:100px;top:100px;"><i class="far fa-arrow-alt-circle-left"></i> Play<br>again !</button>
+  </section>
+  <p style="color:rgba(245,245,245,0.76) ;line-height:1;"> --------- ⭕❌ Aryan ❌⭕ ---------<br>
+    <a style="color:whitesmoke;" href="https://aryan-portfolio-b0d75.web.app/">Visit my site</a>
+  </p>
+  <!--javascript-->
+  <div class="linestrike line1"></div>
+  <div class="linestrike line2"></div>
+  <div class="linestrike line3"></div>
+  <div class="linestrike line4"></div>
+  <div class="linestrike line5"></div>
+  <div class="linestrike line6"></div>
+  <div class="linestrike line7"></div>
+  <div class="linestrike line8"></div>
+  <script type="text/javascript" src="javacript.js"></script>
+</body>
+
+</html>

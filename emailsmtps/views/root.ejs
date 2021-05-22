@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Email</title>
+</head>
+<style>
+    body{
+        background-color: #001a72;
+        color: rgba(255, 255, 255, 0.94);
+    }
+</style>
+
+<body>
+<form class="" method="post" action="/">
+    <label for="name">Name</label>
+    <input id="name" type="text" name="name" value=""><br>
+    <label for="email">Email</label>
+    <input id="email" type="email" name="email" value=""><br>
+    <label for="msg">Message</label>
+    <textarea id="msg" name="msg" rows="8" cols="80"></textarea><br>
+    <button onclick="submit()" type="submit" name="button">submit</button>
+</form>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+
+</script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<!--<script>-->
+<!--    function submit(){-->
+<!--    Email.send({-->
+<!--        SecureToken : "3e9ba647-d457-4668-a5c4-df6d3585160d",-->
+<!--        To : 'yoyoaryan920@gmail.com',//reciever-->
+<!--        From : $('#email').val(),//sender-->
+<!--        Subject : "hi aryan is the subject"+$('#name').val,-->
+<!--        Body : $('#msg').val,-->
+<!--    }).then(-->
+<!--        message => {-->
+<!--            if(message==='OK'){-->
+<!--                alert("message delivered");-->
+<!--            }-->
+<!--            else{-->
+<!--                alert("message not delivered");-->
+<!--            }-->
+<!--        }-->
+<!--    );}-->
+
+<!--</script>-->
+</body>
+
+</html>

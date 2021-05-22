@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EJS Challenge Starting Files/ejs-challenge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cv/public/cv_final" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mailchip" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/story" vcs="Git" />
+  </component>
+</project>

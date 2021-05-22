@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background-color: #f4f5db;
+}
+
+hr {
+  border-style: dotted none none;
+  /*height: 2%;*/
+  width: 5%;
+  border-color: grey;
+  border-width: 2px;
+  /*background-color: white;*/
+}
+
+h1 {
+  text-align: center;
+  background-color: #d9dab0;
+  color: #23689b;
+}
+
+h3 {
+  text-align: center;
+  background-color: #d9dab0;
+  color: #487e95;
+}
+
+p {
+  text-align: center;
+  /*font : all-petite-cap/s;*/
+  color: #23689b;
+  background-color: #d9dab0
+}

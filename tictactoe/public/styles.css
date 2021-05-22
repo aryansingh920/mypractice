@@ -1,0 +1,137 @@
+td {
+  border: 5px solid;
+  border-color: rgba(44, 233, 239, 0.56);
+}
+
+#game {
+  margin-top: -250px;
+  visibility: hidden;
+}
+
+.element {
+  font-size: 90px;
+}
+
+body {
+  text-align: center;
+  margin: 22rem;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-family: 'Lobster', cursive;
+  background: rgb(0, 39, 50);
+  background: -moz-linear-gradient(90deg, rgba(0, 39, 50, 1) 0%, rgba(0, 1, 41, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(0, 39, 50, 1) 0%, rgba(0, 1, 41, 1) 100%);
+  background: linear-gradient(90deg, rgba(0, 39, 50, 1) 0%, rgba(0, 1, 41, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#002732", endColorstr="#000129", GradientType=1);
+}
+
+.buttonmain1, .buttonmain2, .buttonmain3, .buttonmain4, .buttonmain5, .buttonmain6, .buttonmain7, .buttonmain8, .buttonmain9 {
+  background-color: rgba(255, 255, 255, 0.03);
+  width: 200px;
+  height: 150px;
+  border: 0;
+}
+
+.buttonmain1:hover, .buttonmain2:hover, .buttonmain3:hover, .buttonmain4:hover, .buttonmain5:hover, .buttonmain6:hover, .buttonmain7:hover, .buttonmain8:hover, .buttonmain9:hover {
+  background: rgb(0, 255, 218);
+  background: -moz-linear-gradient(90deg, rgba(0, 255, 218, 0.07886904761904767) 0%, rgba(0, 134, 255, 0.08727240896358546) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(0, 255, 218, 0.07886904761904767) 0%, rgba(0, 134, 255, 0.08727240896358546) 100%);
+  background: linear-gradient(90deg, rgba(0, 255, 218, 0.07886904761904767) 0%, rgba(0, 134, 255, 0.08727240896358546) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00ffda", endColorstr="#0086ff", GradientType=1);
+}
+
+h3, h2 {
+  color: rgba(194, 211, 255, 0.58);
+}
+
+.row {
+  margin-bottom: 5px;
+}
+
+.far {
+  color: rgba(169, 249, 255, 0.73);
+}
+
+.btn1 {
+  width: 75px;
+  height: 70px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+}
+
+#loader {
+  margin-top: 20px;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.77)
+}
+
+.linestrike {
+  color: #fff;
+  background-color: rgba(255, 152, 0, 0.56);
+  width: 626px;
+  height: 5px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.line1 {
+  top: 201px;
+  right: 362px;
+}
+
+.line2 {
+  top: 363px;
+  right: 362px;
+}
+
+.line3 {
+  top: 525px;
+  right: 362px;
+}
+
+.line4 {
+  transform: rotate(90deg);
+  width: 472px;
+  right: 662px;
+  top: 363px;
+}
+
+.line5 {
+  transform: rotate(90deg);
+  width: 472px;
+  top: 363px;
+  right: 454px;
+}
+
+.line6 {
+  transform: rotate(90deg);
+  width: 472px;
+  top: 363px;
+  right: 247px;
+}
+
+.line7 {
+  transform: rotate(35deg);
+  top: 372px;
+  right: 320px;
+  height: 5px;
+  width: 710px;
+}
+
+.line8 {
+  transform: rotate(-35deg);
+  top: 352px;
+  right: 320px;
+  height: 5px;
+  width: 710px;
+}
+
+.fa-circle {
+  color: rgba(236, 12, 57, 0.5);
+}
